@@ -1,11 +1,9 @@
 {
-  "name": "tron-cli",
+  "name": "trongrid-cli.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A CLI to interact with TronGrid made in Node.js supporting USDT and TRX.",
+  "main": "src/index.js",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,8 +13,8 @@
     "inquirer": "^9.2.20",
     "tronweb": "^5.3.2"
   },
-  "type": "module",
   "devDependencies": {
     "@types/crypto-js": "^4.2.2"
-  }
+  },
+  "type": "module"
 }
